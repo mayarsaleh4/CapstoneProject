@@ -1,6 +1,6 @@
 # CapstoneProject
 
-Analysis of Authorship in Arabic sources
+##Analysis of Authorship in Arabic sources
 Verifying authorship in literary texts has long been a challenging task, particularly in languages such as Arabic, which are rich in stylistic variation and historical depth.
 This project presents a novel application of the Deep Impostors methodology to the problem of authorship verification in Arabic literature. Inspired by the work of Volkovich and Avros on Shakespearean texts, we adapted this approach to the unique characteristics of classical Arabic, leveraging deep learning techniques to model stylistic fingerprints of authors.
 
