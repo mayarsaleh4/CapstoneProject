@@ -1,5 +1,4 @@
-# Capstone Project
-Analysis of Authorship in Arabic sources
+# Capstone Project - Analysis of Authorship in Arabic sources
 
 Verifying authorship in literary texts has long been a challenging task, particularly in languages such as Arabic, which are rich in stylistic variation and historical depth.
 
