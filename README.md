@@ -6,7 +6,7 @@ This repository contains the implementation of our capstone project for Arabic a
 
 ## Project Goals
 
-- Build a reproducible pipeline for **open set authorship verification** in Arabic.
+- Build a reproducible pipeline for **authorship verification** in Arabic.
 - Avoid direct supervised classification on the true author by using **impostor author pairs**.
 - Produce interpretable outputs: stylometric signals, DTW distance matrices, anomaly scores, and clustering-based decisions. 
 
