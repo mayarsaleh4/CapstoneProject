@@ -49,30 +49,53 @@ The pipeline consists of:
 ## Repository Structure
 
 - `Phase A/`
-  - Background, conceptual model, and methodology design.
+  - Capstone Project Phase A Book (DOCX & PDF)
+  - Capstone Project Phase A Presentation (PPTX)
+  - Contains the theoretical background, problem definition, and proposed methodology.
 
 - `Phase B/`
-  - Full implementation and experiment pipeline.
-  - Includes preprocessing, embedding, training, DTW, Isolation Forest, clustering, and evaluation.
+  - `Pipeline Setup/`
+    - `Analysis_of_Authorship_in_Arabic_sources.ipynb` . Main pipeline notebook
+    - `impostors_data.zip` . Impostor author texts
+    - `test_data.zip` . Test texts (Al-Jahiz corpus)
+    - `test_data_table.csv` . Mapping of test files to book names
+    - `test_data_table_no_duplicates.csv` . Cleaned index table
+
+  - `Project Documentation/`
+    - Capstone Project Phase B Book (DOCX & PDF) - Read for user's Guide
+    - `poster.pdf` . Project poster
+    - `projectVideo.mp4` . Explanation video
+
 
 ---
-
 ## Quick Start (Recommended . Google Colab)
 
-1. Clone the repo or download it:
+1. Clone the repository or download it:
    - https://github.com/mayarsaleh4/CapstoneProject
 
-2. Open the main notebook in `Phase B/` (pipeline notebook location is documented in Phase B). 
+2. Open the main notebook:
+   - `Phase B/Pipeline Setup/Analysis_of_Authorship_in_Arabic_sources.ipynb`
 
-3. Mount Google Drive and follow the notebook cells in order:
-   - Preprocess
-   - Fine-tune AraBERT 
-   - Generate test embeddings
-   - Train Siamese models per impostor pair
-   - Generate signals
-   - DTW
-   - Isolation Forest
-   - K-Means clustering and evaluation outputs 
+3. Prepare the data:
+   - Unzip `impostors_data.zip` and `test_data.zip`.
+   - Create a folder named `capstone` in Google Drive.
+   - Move all extracted folders and CSV files into `capstone`.
+
+4. Open the notebook in Google Colab:
+   - Enable a GPU runtime.
+   - Mount Google Drive when prompted.
+
+5. Run the notebook cells sequentially from top to bottom following the pipeline stages:
+   - Text preprocessing  
+   - AraBERT fine-tuning (optional but recommended)  
+   - Embedding generation  
+   - Siamese impostor pair training  
+   - Stylometric signal generation  
+   - Dynamic Time Warping (DTW)  
+   - Isolation Forest anomaly detection  
+   - K-Means clustering and final evaluation
+
+All outputs are automatically saved to structured folders in Google Drive.
 
 ---
 
