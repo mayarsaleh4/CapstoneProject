@@ -1,4 +1,4 @@
-# Capstone Project . Analysis of Authorship in Arabic Sources
+# Capstone Project : Analysis of Authorship in Arabic Sources
 
 This repository contains the implementation of our capstone project for Arabic authorship verification using a Deep Impostors inspired framework. The system reformulates authorship verification as a **signal comparison** and **unsupervised anomaly detection** problem, targeting **classical Arabic** with a case study on **Al-Jahiz**. 
 
