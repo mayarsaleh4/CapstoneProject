@@ -85,15 +85,7 @@ The pipeline consists of:
    - Enable a GPU runtime.
    - Mount Google Drive when prompted.
 
-5. Run the notebook cells sequentially from top to bottom following the pipeline stages:
-   - Text preprocessing  
-   - AraBERT fine-tuning (optional but recommended)  
-   - Embedding generation  
-   - Siamese impostor pair training  
-   - Stylometric signal generation  
-   - Dynamic Time Warping (DTW)  
-   - Isolation Forest anomaly detection  
-   - K-Means clustering and final evaluation
+5. Run the notebook cells sequentially from top to bottom following the pipeline stages.
 
 All outputs are automatically saved to structured folders in Google Drive.
 
